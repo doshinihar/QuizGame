@@ -1,1 +1,1 @@
-# QuizGame
+# treasure-hunter
