@@ -67,21 +67,21 @@ class Security {
         this.button12.position(500,190);
         this.button12.style('background', 'lightgrey');
 
-        this.button5 = createButton('Sorting Hat');
-        this.button5.position(500,150);
-        this.button5.style('background', 'lightgrey')
+        this.button13 = createButton('Sorting Hat');
+        this.button13.position(500,150);
+        this.button13.style('background', 'lightgrey')
 
-        this.button6 = createButton('Wands');
-        this.button6.position(500,110);
-        this.button6.style('background', 'lightgrey');
+        this.button14 = createButton('Wands');
+        this.button14.position(500,110);
+        this.button14.style('background', 'lightgrey');
 
-        this.button5 = createButton('Wizarding World');
-        this.button5.position(500,70);
-        this.button5.style('background', 'lightgrey')
+        this.button15 = createButton('Wizarding World');
+        this.button15.position(500,70);
+        this.button15.style('background', 'lightgrey')
 
-        this.button6 = createButton('Hogwarts Express');
-        this.button6.position(500,30);
-        this.button6.style('background', 'lightgrey');
+        this.button16 = createButton('Hogwarts Express');
+        this.button16.position(500,30);
+        this.button16.style('background', 'lightgrey');
     }
 
     hide(){
@@ -148,7 +148,17 @@ this.button5.mousePressed(() => {
  if(score === 4){
     this.button5.hide();
     this.button6.hide();
- }
+    this.button7.hide();
+    this.button8.hide();
+    this.button9.hide();
+    this.button10.hide();
+    this.button11.hide();
+    this.button12.hide();
+    this.button13.hide();
+    this.button14.hide();
+    this.button15.hide();
+    this.button16.hide();
+       }
  
     }
 }
